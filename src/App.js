@@ -10,15 +10,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-      <p>POD es una app que te ayuda a utilizar tus tarjetas en el local correcto el dia correcto</p>
-      <p>para optimizar al maximo tu dinero!</p>
-      <p>dssd</p>
-       
-      </header>
       
       <body>
-
       <div>
         <Carousel >
         <Carousel.Item>
