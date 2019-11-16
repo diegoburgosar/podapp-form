@@ -1,9 +1,18 @@
 
 = > Pasos de instalacion de react
-npm config set prefix /usr/local
-$ sudo npm install -g create-react-app
-$ create-react-app create-react-app podapp-form
-:: luego de la instalacion ::
+    npm config set prefix /usr/local
+    $ sudo npm install -g create-react-app
+    $ create-react-app create-react-app podapp-form
+    :: luego de la instalacion ::
 
-=> cd podapp-form
-=> npm start
+    => cd podapp-form
+    => npm start
+
+=> creamos GIT y vinculamos
+git status
+git add -A
+git commit -m "version 0"
+git remote add origin {la URL del repo}
+git push origin master
+
+=> npm i boostrap
