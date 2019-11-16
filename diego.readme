@@ -1,0 +1,9 @@
+
+= > Pasos de instalacion de react
+npm config set prefix /usr/local
+$ sudo npm install -g create-react-app
+$ create-react-app create-react-app podapp-form
+:: luego de la instalacion ::
+
+=> cd podapp-form
+=> npm start
