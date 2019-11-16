@@ -20,7 +20,7 @@ function App() {
       <body>
 
       <div>
-        <Carousel className='App-myCarousel'>
+        <Carousel >
         <Carousel.Item>
           <div className='App-myCard'>
           <div class="card" >
@@ -68,8 +68,8 @@ function App() {
       </Carousel>
 
         </div>
-
-        <form>
+      <div className='App-myForm'>
+        <form >
           <div class="input-group mb-3">
           <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
@@ -95,6 +95,7 @@ function App() {
           <Button variant="primary" type="submit">Primary</Button>
 
         </form>
+        </div>
       </body>
     </div>
   );
